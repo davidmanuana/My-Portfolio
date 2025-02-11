@@ -9,14 +9,9 @@
         body {
             font-family: 'Arial', sans-serif;
         }
-        .dark-mode {
-            background-color: #1a202c;
-            color: white;
-        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
-    <button onclick="toggleDarkMode()" class="fixed top-4 right-4 bg-gray-700 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-gray-600">🌙 Dark Mode</button>
     
     <header class="text-center py-16 bg-gradient-to-r from-purple-500 to-blue-500 shadow-lg">
         <h1 class="text-5xl font-extrabold">Hello, I'm David Manuana</h1>
@@ -30,6 +25,33 @@
             and I’m always eager to learn new technologies. Below are some of my favorite projects!
         </p>
     </section>
+
+    <!-- Skills Section -->
+    <section class="max-w-4xl mx-auto px-6 mt-10">
+        <h2 class="text-3xl font-semibold mb-6 text-center">Skills</h2>
+        <div class="flex justify-center space-x-8">
+            <!-- Java Logo -->
+            <div class="text-center">
+                <img src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo-700x394.png" alt="Java" class="w-24 h-24 object-contain">
+                <p class="text-gray-400 mt-2">Java</p>
+            </div>
+            <!-- Python Logo -->
+            <div class="text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="w-20 h-20 object-contain">
+                <p class="text-gray-400 mt-2">Python</p>
+            </div>
+            <!-- CSS Logo -->
+            <div class="text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS" class="w-20 h-20 object-contain">
+                <p class="text-gray-400 mt-2">CSS</p>
+            </div>
+            <!-- HTML Logo -->
+            <div class="text-center">
+                <img src="https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="HTML" class="w-20 h-20 object-contain">
+                <p class="text-gray-400 mt-2">HTML</p>
+            </div>
+        </div>
+    </section>
     
     <section class="max-w-4xl mx-auto px-6 mt-10">
         <h2 class="text-3xl font-semibold mb-6 text-center">Projects</h2>
@@ -39,14 +61,14 @@
                 <h3 class="text-2xl font-semibold text-center text-white">🎯 Number Guesser Game</h3>
                 <p class="text-gray-400 mt-2 text-center">A fun game where the user tries to guess a randomly generated number. 
                 Built using Python with interactive user inputs.</p>
-                <a href="https://github.com/yourusername/number-guesser" class="text-blue-400 mt-4 block text-center">View on GitHub</a>
+                <a href="https://github.com/davidmanuana/Number-Guesser-" class="text-blue-400 mt-4 block text-center">View on GitHub</a>
             </div>
             <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
                 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*hPhzeFD3htF7ly1AMmAVbw.png" alt="Rock Paper Scissors" class="rounded-lg mb-4 w-64 h-64 object-cover border-4 border-blue-400 shadow-xl">
                 <h3 class="text-2xl font-semibold text-center text-white">✂️ Rock Paper Scissors</h3>
                 <p class="text-gray-400 mt-2 text-center">A classic Rock Paper Scissors game where the player competes against the computer. 
                 Built using Python with simple logic and user-friendly interaction.</p>
-                <a href="https://github.com/yourusername/rock-paper-scissors" class="text-blue-400 mt-4 block text-center">View on GitHub</a>
+                <a href="https://github.com/davidmanuana/Rock-Paper-Scissors.git" class="text-blue-400 mt-4 block text-center">View on GitHub</a>
             </div>
         </div>
     </section>
@@ -54,16 +76,10 @@
     <footer class="text-center py-10 mt-16 bg-gray-800">
         <h2 class="text-2xl">Connect with Me</h2>
         <p class="mt-2">
-            <a href="#" class="text-blue-400 mx-2">GitHub</a>
-            <a href="#" class="text-blue-400 mx-2">LinkedIn</a>
+            <a href="https://github.com/davidmanuana" class="text-blue-400 mx-2">GitHub</a>
             <a href="mailto:daviddayonipro@gmail.com" class="text-blue-400 mx-2">Email</a>
         </p>
     </footer>
 
-    <script>
-        function toggleDarkMode() {
-            document.body.classList.toggle("dark-mode");
-        }
-    </script>
 </body>
 </html>
